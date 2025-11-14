@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fotos – Consciência Negra</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+    }
+
+    .site-header {
+      background: #111;
+      padding: 15px 0;
+      box-shadow: 0 0 15px rgba(255,255,255,0.08);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .brand {
+      color: #ffcc00;
+      margin: 0;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .nav-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      transition: 0.3s;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu .active {
+      color: #ffcc00;
+    }
+
+
+    .galeria {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .galeria h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 28px;
+      color: #ffcc00;
+    }
+
+    .grade-fotos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .foto-card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.05);
+      transition: transform .3s;
+      text-align: center;
+    }
+
+    .foto-card:hover {
+      transform: scale(1.05);
+    }
+
+    .foto-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .foto-card p {
+      margin-top: 10px;
+      color: #ffcc00;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+   
+    footer {
+      margin-top: 50px;
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="brand">Consciência Negra</h1>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#historia">História</a></li>
+        <li><a href="index.html#eventos">Eventos</a></li>
+        <li><a href="index.html#recursos">Recursos</a></li>
+        <li><a href="videos.html">Vídeos</a></li>
+        <li><a href="fotos.html" class="active">Fotos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="galeria">
+  <h2>Galeria de Fotos</h2>
+
+  <div class="grade-fotos">
+
+    <div class="foto-card">
+      <img src="traditio.jfif">
+      <p>Cultura Afro-brasileira</p>
+    </div>
+
+    <div class="foto-card">
+      <img src="download.jfif">
+      <p>Força e Resistência</p>
+    </div>
+
+    <div class="foto-card">
+      <img src="Foto retrato em aquarela da linda mulher….jfif">
+      <p>Beleza Negra</p>
+    </div>
+
+    <div class="foto-card">
+      <img src="download (1).jfif">
+      <p>Tradições Ancestrais</p>
+    </div>
+
+    <div class="foto-card">
+      <img src="Africa.jfif">
+      <p>Identidade e Cultura</p>
+    </div>
+
+    <div class="foto-card">
+      <img src="shop - Royalty free images @ Mundurucu_com.jfif">
+      <p>História Viva</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 – Projeto Consciência Negra
+</footer>
+
+</body>
+</html>
